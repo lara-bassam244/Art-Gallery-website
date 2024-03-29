@@ -5,34 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Art Gallery</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!--iconszzz-->
-    <link href="https://db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg+Roman" rel="stylesheet"> <!--ogg-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bd0c998775.js" crossorigin="anonymous"></script>
     <link href="https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy-SemiBold" rel="stylesheet" type="text/css"/> <!-- gilroy -->
 </head>
 <body>
+    <div class="background-gradient">
+        <div class="orange-color"></div>
+        <div class="blue-color"></div>
+        <div class="blue-color2"></div>
+        <div class="orange-color2"></div>
+    </div>
+
     <nav>
         <a href="#" class="logo">
-            <img src="logo.png" alt="logo">
+            <img src="pictures/dali-logo.png" alt="logo">
         </a>
-        <label for="" class="icons">
-            <i class='bx bx-menu'></i>
-        </label>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         <menu class="menu-items">
             <ul class="nav-links">
-                <li><a href="" class="nav-link">About</a></li>
+                <li><a href="" class="active nav-link">Home</a></li>
                 <li><a href="" class="nav-link">Business Inquiry</a></li>
+                <li><a href="" class="nav-link">Artwork</a></li>
                 <li><a href="" class="nav-link">Events</a></li>
                 <li><a href="" class="nav-link">Follow Us</a></li>
             </ul>
         </menu>
     </nav>
 
-    <main> 
-        <h1>Virtual Art Gallery</h1>
+    <main>
+        <div class="title-container">
+            <div class="heading">
+                <h1>Salvador Dali</h1>
+                <h1>Art Gallery</h1>
+            <div class="description">
+                <h1>Explore Salvador Dali's iconic masterpieces in our virtual gallery.</h1>
+                <button class="main-btn">Check it out!</button>
+            </div>
+            </div>
+        </div>
+        <div class="dali-figure">
+            <img src="pictures/dali yellow and black.png" alt="">
+        </div>
     </main>
-    <div class="center-button">
-        <button>See More</button>
-    </div>
+
+    <section>
+        <div class="about">
+        <h3 class="about-big">About</h3>
+        <h2 class="about-small">About</h2>
+        </div>
+    </section>
     <script src="main.js"></script>
 </body>
 </html>
