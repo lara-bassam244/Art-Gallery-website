@@ -1,47 +1,54 @@
 /* Define global variables */
 :root{
-    /* --font-gilroy: url(Gilroy-SemiBold.ttf);
-    --font-voire: url(Voire\ Display\ Light.ttf); */
     --medium-font-size: 1rem;
     --large-font-size: 1.3rem;
-    --font-family: "Gilroy-SemiBold";
-    --text-color: rgb(97, 97, 97);
-    --transition-speed: 0.4s;
-    --border-color: black;
-    --border-transition-speed: 0.4s;
-    --nav-links-gap: 20px;
-    --hr-width: 95%;
-    --hr-margin: 10px auto;
-    --logo-width: 150px;
-    --small-logo-width: 120px;
-    --icon-font-size: 2rem;
+    --text-color: #616161;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    width: 100%;
+body{
+    position: relative;
+}
+/* .manu-items{
+    display: flex;
+    flex-direction: column;
+} */
+nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: lightblue;
+    height: 80px;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
 }
-/* .nav-bar{
+img {
+    width: 150px;
+}
+.icons{
+    font-size: var(--large-font-size);
+    display: none;
+    cursor: pointer;
+    right: 0;
+}
+.nav-links{
     display: flex;
-    align-items: center;
-} */
+     gap: 20px;
+}
 li{
     list-style: none;
     font-size: var(--medium-font-size);
-    font-family: var(--font-family);
+    font-family: "Gilroy-SemiBold";
 }
 .nav-links .nav-link{
     color: var(--text-color);
     text-decoration: none;
-    transition: color var(--transition-speed);
+    transition: color 0.4s;
     position: relative;
 }  
 .nav-links .nav-link:hover{
@@ -54,78 +61,47 @@ li{
     bottom: -2px;
     width: 0;
     height: 2px;
-    background-color: var(--border-color);
-    transition: width var(--border-transition-speed);
+    background-color: black;
+    transition: width 0.4s;
 }
 .nav-links .nav-link:hover::after{
     width: 100%;
 }
-.nav-links{
-    display: flex;
-    gap: var(--nav-links-gap);
-    margin: 25px;
-}
-.desktop-hr{
-    width: var(--hr-width);
-    margin: var(--hr-margin);
-}
-h1{
-    font-family: "Ogg Roman"; /*remm*/
-}
-
-.logo{
-    margin: 20px;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-}
-img {
-    width: var(--logo-width);
-}
-.icons{
-    font-size: var(--large-font-size);
-    display: none;
-    cursor: pointer;
-    right: 0;
-    margin: 20px;
-}
-.mobile-hr{
-    display: none;
-}
 @media (max-width: 650px){
-    .logo {
-        width: 80%;
+    .menu-items {
+        /* display: flex; */
+        width: calc(100% - 60px);
+        position: absolute;
+        top: 80px; 
     }
-    .nav-bar {
-        width: 100%;
-        display: none;
+    nav{
+        align-items: flex-start;
+        transition: 0.4s ease;
         overflow: hidden;
-        /* margin-right: 30px; */
-        /* backdrop-filter: blur(10px); Adjust the blur radius as needed */
-        /* background-color: rgba(37, 13, 13, 0.5);  */
+        padding: 20px;
     }
-    .nav-bar.active{
-        display: block;
-        height: 350px;
+    nav.active{
+        height: 400px;
     }
-    .nav-bar.active .nav-links{
+    .nav-links{
         flex-direction: column;
         align-items: center;
     }
+
     li{
         font-size: var(--large-font-size);
-        padding: 10px;
+        margin: 20px 0;
     }
-    .desktop-hr{
+    /* .desktop-hr{
         display: none;
     }
     .mobile-hr{
         width: var(--hr-width);
         margin: var(--hr-margin);
         display: block;
-    }
+    } */
     .icons{
         display: block;
-        font-size: var(--icon-font-size);
+        font-size: 2rem;
     }
 }
