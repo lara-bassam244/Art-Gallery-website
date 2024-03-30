@@ -6,14 +6,20 @@
 
 :root{
     --m-font-size: 1rem;
-    --xl-font-size: clamp(1.3rem, 2.5vw, 6rem);
+    --xl-font-size: clamp(1.5rem, 3vw, 6rem);
     --l-font-size: 1.25rem;
+    --about-font-size: clamp(5rem, 6.7vw, 8rem);
+    --s-about-font-size: clamp(3.3rem, 4.5vw, 5.5rem);
     --text-color: #616161;
     --nav-height: 80px;
     --negative-nav-height: -80px;
     --footer-height: 60px;
+    --about-img-width: 26%;
     /*ur missing all the colors from backgrounds main color template
     and all the text color u only have the navbar*/
+
+    /* idk what the hell ur trying to say bas im gonna ignore that-- fi one text color why would i put more*/
+    /* plus i commented out the background circles*/
 }
 
 body{
@@ -34,12 +40,9 @@ nav{
     position: sticky;
     z-index: 100;
 }
-
 .logo img{
     width: 80px;
 }
-
-
 .nav-links{
     display: flex;
      gap: 20px;
@@ -90,7 +93,6 @@ footer {
     align-items: center;
     font-size: var(--m-font-size);
 }
-
 @media (max-width: 600px){
     :root{
         --m-font-size: .75rem;
