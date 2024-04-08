@@ -1,9 +1,7 @@
 $(document).ready(function() {
-    //home button
     $(".home-btn").click(()=>{
         window.location.href = "paintings.html";
     });
-//fetch json file
     $.getJSON('paintings.json', function(data){
         let featuredArt = data.filter(painting => {
             return painting.name === "The Persistence of Memory" ||
