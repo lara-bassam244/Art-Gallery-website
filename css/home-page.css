@@ -258,7 +258,6 @@ main{
             font-size: var(--l-font-size);
         }
         .art-pieces{
-            flex-wrap: wrap;
             justify-content: center;
             gap: 50px;
         }

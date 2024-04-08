@@ -10,7 +10,6 @@ section {
     max-width: 1400px;
     align-items: center;
     padding: 30px;
-    /* i wanna add border radius btu idk why its not working */
 }
 .left {
     flex-basis: 50%;
