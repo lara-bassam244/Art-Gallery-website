@@ -1,26 +1,98 @@
 .painting {
-    border: 1px solid #FEF6EF;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 300px;
+    width: 250px;
+    height: 350px;
     text-align: center;
-    display: inline-block;
+    position: relative;
+}
+
+#paintings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+    max-width: 2000px;
+}
+
+.paintings-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+
+.paintings-container h2 {
+    text-align: center;
+    margin: 10px 10px 40px;
+    font-size: var(--xl-font-size);
+    font-family:"Marcellus", serif;
 }
 
 .painting h2 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: var(--l-font-size);
     color: black;
+    font-family:"Marcellus", serif;
 }
 
 .painting p {
-    font-size: 16px;
-    color: rgba(211.07, 211.07, 211.07, 0.34);
+    font-size: var(--l-font-size);
+    color: black;
+    font-weight: bold;
+    margin: 6px 0;
+    font-family: "Poly", serif;
 }
 
 .painting img {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-top: 10px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.painting::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
+
+.painting::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 2px;
+    height: 30%;
+    background-color: black;
+}
+
+.img-container{
+    position: relative;
+}
+
+
+.img-container::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 40%;
+    background-color: black;
+}
+
+.img-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 2px;
+    background-color: black;
 }

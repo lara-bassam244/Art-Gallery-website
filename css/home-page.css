@@ -19,7 +19,7 @@ main{
     padding-top: var(--nav-height);
 }
 .heading h1{
-    font-family: var(--title-font);
+    font-family:"Marcellus", serif;
 }
 .description{
     display: flex;
@@ -30,18 +30,17 @@ main{
     padding: 35px;
     font-size: var(--m-font-size);
     text-shadow: none;
-    font-family: var(--text-font);
 }
 .home-btn{
     padding: 15px;
     font-size: var(--l-font-size);
+    font-family: "Marcellus", serif;
     border-radius: 40px;
     border: none;
     background-color: rgba(255, 255, 255, 0.418);
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     cursor: pointer;
     color: black;
-    font-family: var(--text-font);
     position: relative;
     transition: transform .6s;
 }
@@ -132,6 +131,8 @@ main{
     flex-direction: column;
     gap: 100px;
     padding: 0 50px;
+    max-width: 2026px;
+    margin: 0 auto;
 }
 .about-big{
     color: rgba(211.07, 211.07, 211.07, 0.31);
@@ -146,7 +147,7 @@ main{
 .about-container{
     display: inline-block;
     position: relative;
-    font-family: var(--title-font);
+    font-family: "Marcellus", serif;
 }
 .about img{
     width: var(--about-img-width);
@@ -164,11 +165,10 @@ main{
 }
 .about h4{
     font-size: clamp(2.3rem, 3.5vw, 4rem);
-    font-family: var(--title-font);
+    font-family: "Marcellus", serif;
 }
 .about p{
     font-size: clamp(1rem, 1.7vw, 3rem);
-    font-family: var(--text-font);
 }
 .painting-dali-life{
     flex-direction: row-reverse;
@@ -179,14 +179,15 @@ main{
     padding-right: 50px;
 }
 .featured-art{
-    margin-bottom: 400px;
+    max-width: 2026px;
+    margin: 0 auto;
 }
 .featured-art-title{
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: var(--xl-font-size);
-    font-family: var(--title-font);
+    font-family:"Marcellus", serif;
     padding: 50px;
 }
 .featured-art-title hr{
@@ -203,7 +204,7 @@ main{
     gap: 20px;
     font-size: var(--xl-font-size);
     height: 35vh;
-    font-family: var(--title-font);
+    font-family:"Marcellus", serif;
 }
 .surrealism hr{
     border: none;
@@ -257,9 +258,6 @@ main{
             flex-wrap: wrap;
             justify-content: center;
             gap: 50px;
-        }
-        .art-pieces img{
-            width: 40%;
         }
 }
 @media (max-width: 600px){

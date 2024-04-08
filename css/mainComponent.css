@@ -14,8 +14,6 @@
     --nav-height: 80px;
     --negative-nav-height: -80px;
     --about-img-width: 26%;
-    --title-font: "Marcellus", serif;
-    --text-font: "Poly", serif;
     /*ur missing all the colors from backgrounds main color template
     and all the text color u only have the navbar*/
 
@@ -25,8 +23,9 @@
 
 body{
     position: relative;
-    /* min-height: 100vh; */
-    padding-bottom: 300px;
+    min-height: 100vh;
+    padding-bottom: 230px;
+    font-family: "Poly", serif;
     background: linear-gradient(180deg, #FEF6EF 0%, #FFDDBF 100%);
 }
 nav{
@@ -38,7 +37,6 @@ nav{
     padding: 0 30px;
     position: sticky;
     z-index: 100;
-    font-family: var(--text-font);
 }  
 .logo img{
     width: 80px;
@@ -85,27 +83,16 @@ footer {
     bottom: 0;
     padding: 20px;
     width: 100%;
-    min-height: 300px;
+    height: 230px;
     position: absolute;
     background-image: url(../pictures/svg\ pictures/waves.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: var(--title-font);
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-family:"Marcellus", serif;
+    font-size: var(--l-font-size);
     align-items: center;
     flex-direction: column;
     justify-content: center;
-}
-footer::before{
-    content: "";
-    position: absolute;
-    top: -30px;
-    left: 0;
-    height: 150px;
-    background-image: url(../pictures/svg\ pictures/lines-waves.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
 }
 .footer-info{
     width: 100%;
@@ -115,7 +102,7 @@ footer::before{
     justify-content: space-between;
 }
 .footer-info #footer-logo{
-    width: 10%;
+    width: 8%;
     margin-right: 10%;
 }
 .footer-info blockquote{
@@ -125,6 +112,9 @@ footer::before{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.footer-social ul{
+    text-align: center;
 }
 .footer-social ul li {
     display: inline-block;
@@ -152,13 +142,14 @@ footer::before{
     .footer-info{
         flex-direction: column;
         gap: 30px;
+        height: 200px;
     }
     .footer-info #footer-logo{
-        width: 20%;
+        width: 10%;
         margin: 0;
     }
-    footer{
-        height: 500px;
+    .footer-social ul li{
+        width: 20%;
     }
 }
 @media (max-width: 600px){
@@ -217,6 +208,6 @@ footer::before{
         padding: 0;
     }
     footer{
-        font-size: 1rem;
+        font-size: var(--m-font-size);
     }
 }
