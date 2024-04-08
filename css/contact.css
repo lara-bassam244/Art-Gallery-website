@@ -25,6 +25,7 @@ section {
 .left h2 {
     font-size: var(--l-font-size);
     font-family:"Marcellus", serif;
+    text-align: center;
 }
 
 .left .line {
@@ -37,7 +38,7 @@ section {
 
 .left p {
     font-size: var(--s-font-size);
-
+    text-align: center;
 }
 
 .right {
@@ -94,6 +95,9 @@ button:hover {
 }
 
 @media (max-width: 830px){
+    section {
+        height: auto;
+    }
     .contact-container{
         flex-direction: column;
     }
@@ -108,6 +112,12 @@ button:hover {
 }
 
 @media (max-width: 600px) {
+    .left {
+        padding: 50px 30px;
+    }
+    .right {
+        padding: 50px 30px;
+    }
     .input-row {
         flex-direction: column;
         gap: 5px;
