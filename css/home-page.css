@@ -179,7 +179,7 @@ main{
     padding-right: 50px;
 }
 .featured-art{
-    margin-bottom: 400px;
+    margin-bottom: 100px;
 }
 .featured-art-title{
     display: flex;
@@ -217,8 +217,8 @@ main{
 }
 .art-pieces img{
     width: 30%;
-    transition: box-shadow 0.4s ease; /* Add transition for box-shadow */
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); /* Default box-shadow */
+    transition: box-shadow 0.4s ease; 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .art-pieces img:nth-child(1):hover{
     box-shadow: 0px 0px 17.299999237060547px 5px #AF6C39;

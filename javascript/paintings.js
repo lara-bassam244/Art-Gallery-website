@@ -3,9 +3,11 @@ $(document).ready(function () {
         $.each(data, function (index, painting) {
             let paintingHTML = `
                 <div class="painting">
-                    <h2>${painting.name}</h2>
-                    <p>Year: ${painting.year}</p>
+                    <div class="img-container">
                     <img src="${painting.image}" alt="${painting.name}">
+                    </div>
+                    <p>${painting.year}</p>
+                    <h2>${painting.name}</h2>
                 </div>
             `;
             $('#paintings').append(paintingHTML);
