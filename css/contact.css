@@ -107,3 +107,10 @@ button:hover {
         width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    .input-row {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
