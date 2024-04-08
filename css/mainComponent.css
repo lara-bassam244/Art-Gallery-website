@@ -159,7 +159,7 @@ footer {
         padding: 20px;
     }
     nav.active{
-        height: 500px;
+        height: 320px;
     }
     .nav-links{
         flex-direction: column;
