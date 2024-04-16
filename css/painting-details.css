@@ -27,12 +27,13 @@ main h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .details {
     display: flex;
-    padding: 20px;
+    padding: 30px;
+    gap: 50px;
     max-width: 1600px;
 }
 
@@ -67,6 +68,7 @@ main h2 {
     padding: 5px 20px;
     cursor: pointer;
     background-color: #6b3f1078;
+    border-radius: 20px;
 }
 
 .contact button a {

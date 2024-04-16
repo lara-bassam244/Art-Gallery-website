@@ -69,7 +69,7 @@
 }
 
 .painting:hover::after {
-    height: 255px;
+    height: 248px;
 }
 
 .painting::after {
@@ -116,7 +116,7 @@
 }
 
 .painting:hover .img-container::after{
-    width: 257px;
+    width: 100%;
 }
 
 .painting:hover {

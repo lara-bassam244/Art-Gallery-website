@@ -16,5 +16,6 @@ function showDetails(){
     details.querySelector('img').src = thisPainting.image;
     details.querySelector('.name').innerHTML = thisPainting.name;
     details.querySelector('.year').innerHTML = thisPainting.year;
-    details.querySelector('.description').innerHTML = thisPainting.description;
+    let description = thisPainting.description.replace(/\n/g, '<br>');
+    details.querySelector('.description').innerHTML = description;
 }
