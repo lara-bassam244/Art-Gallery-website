@@ -1,80 +1,97 @@
 [
     {
+        "id": 1,
         "name": "Three Sphinxes of Bikini",
         "year": 1947,
-        "image": "https://www.dalipaintings.com/assets/img/paintings/three-sphinxes-of-bikini.jpg"
+        "image": "https://www.dalipaintings.com/assets/img/paintings/three-sphinxes-of-bikini.jpg",
+        "description": "whole lotta nothing badfa osidfuh oaisufh oiawuehf oiasduh f"
     },
     {
+        "id": 2,
         "name": "Archeological Reminiscence of Millet’s ‘Angelus’",
         "year": 1933,
         "image": "https://www.dalipaintings.com/assets/img/paintings/archeological-reminiscence-millet-s-angelus.jpg"
     },
     {
+        "id": 3,
         "name": "Bacchanale",
         "year": 1939,
         "image": "https://www.dalipaintings.com/assets/img/paintings/bacchanale.jpg"
     },
     {
+        "id": 4,
         "name": "The Persistence of Memory",
         "year": 1931,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-persistence-of-memory.jpg"
     },
     {
+        "id": 5,
         "name": "Landscape with Butterflies",
         "year": 1956,
         "image": "https://www.dalipaintings.com/assets/img/paintings/landscape-with-butterflies.jpg"
     },
     {
+        "id": 6,
         "name": "The Sublime Moment",
         "year": 1938,
         "image": "https://th.bing.com/th/id/R.bff1d7bbe0d079add6d307642d0ab574?rik=%2byxSP9uMu6mymw&riu=http%3a%2f%2fwww.extravaganzi.com%2fwp-content%2fuploads%2f2016%2f10%2fDali%E2%80%99s-Rare-Cookbook2.jpg&ehk=vY3lv0y9ImLCQOKEiBsH60CVBCyF8iGZv%2bYe9xESmi4%3d&risl=&pid=ImgRaw&r=0"
     },
     {
+        "id": 7,
         "name": "Le Sommeil (sleep)",
         "year": 1937,
         "image": "https://www.dalipaintings.com/assets/img/paintings/sleep.jpg"
     },
     {
+        "id": 8,
         "name": "The Anthropomorphic Cabinet",
         "year": 1936,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-anthropomorphic-cabinet.jpg"
     },
     {
+        "id": 9,
         "name": "The Disintegration of The Persistence of Memory",
         "year": 1954,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-disintegration-of-the-persistence-of-memory.jpg"
     },
     {
+        "id": 10,
         "name": "Elephants",
         "year": 1948,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-elephants-large.jpg"
     },
     {
+        "id": 11,
         "name": "The Endless Enigma",
         "year": 1938,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-endless-enigma.jpg"
     },
     {
+        "id": 12,
         "name": "The Enigma of My Desire",
         "year": 1929,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-enigma-of-my-desire.jpg"
     },
     {
+        "id": 13,
         "name": "The Face of war",
         "year": 1941,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-face-of-war.jpg"
     },
     {
+        "id": 14,
         "name": "The Melting Watch",
         "year": 1954,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-melting-watch.jpg"
     },
     {
+        "id": 15,
         "name": "The First Days of Spring",
         "year": 1929,
         "image": "https://www.dalipaintings.com/assets/img/paintings/the-first-days-of-spring.jpg"
     },
     {
+        "id": 16,
         "name": "Swans Reflecting Elephants",
         "year": 1937,
         "image":"https://www.dalipaintings.com/assets/img/paintings/swans-reflecting-elephants.jpg"

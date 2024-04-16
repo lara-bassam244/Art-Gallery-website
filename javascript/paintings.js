@@ -11,6 +11,12 @@ $(document).ready(function () {
                 </div>
             `;
             $('#paintings').append(paintingHTML);
+
+            $('.painting').eq(index).click(function () {
+                let detailURL = `paintingdetails.html?id=${encodeURIComponent(painting.id)}`;
+                window.location.href = detailURL;
+            });
         });
     });
+    
 });

@@ -61,6 +61,15 @@
     width: 50%;
     height: 2px;
     background-color: black;
+    transition: all .3s ease;
+}
+
+.painting:hover::before {
+    width: 100%;
+}
+
+.painting:hover::after {
+    height: 255px;
 }
 
 .painting::after {
@@ -71,6 +80,7 @@
     width: 2px;
     height: 30%;
     background-color: black;
+    transition: all ease .3s;
 }
 
 .img-container{
@@ -86,7 +96,13 @@
     width: 2px;
     height: 40%;
     background-color: black;
+    transition: all ease .3s;
 }
+
+.painting:hover .img-container::before{
+    height: 248px;
+}
+
 
 .img-container::after {
     content: '';
@@ -96,4 +112,13 @@
     width: 40%;
     height: 2px;
     background-color: black;
+    transition: all .3s ease;
+}
+
+.painting:hover .img-container::after{
+    width: 257px;
+}
+
+.painting:hover {
+    cursor: pointer;
 }
