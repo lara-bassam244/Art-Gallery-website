@@ -7,6 +7,7 @@ main {
 main h2 {
     font-size: var(--xl-font-size);
     margin: 10px 0;
+    font-family:"Marcellus", serif;
 }
 
 .left {
@@ -38,6 +39,7 @@ main h2 {
 .name {
     font-size: var(--xl-font-size);
     text-align: center;
+    font-family:"Marcellus", serif;
 }
 
 .year {
